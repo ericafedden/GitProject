@@ -1,0 +1,50 @@
+@import 'variables';
+
+.buttons{
+	list-style: none;
+	a{
+		text-decoration: none;
+	}
+
+	.foundicon-twitter, .foundicon-facebook, .foundicon-linkedin, .foundicon-google-plus {
+		color: $white-color;	
+		}
+
+	 .facebook {		
+	border-radius: 5px;		
+	width: 50px;
+	height: 50px;
+	margin-bottom: 30px;
+	margin-left: 45%;
+	font-size: 40px;
+	 background: #23476a;
+	 border: 1px solid black;
+}
+
+	.twitter {	
+		@extend .facebook;
+		background: #00abf0;		
+	}
+
+	.google {
+		@extend .facebook;
+		background: #a92a24;	
+	}
+
+	.linkedin{
+		@extend .facebook;
+		background: black;	}
+
+	.facebook:hover, .twitter:hover, .google:hover, .linkedin:hover {		
+		border: 2px solid $white-color;
+	}
+}
+
+.readmore{
+	background-color: #ededed;
+	border: 2px $white-color solid;
+	color: black;
+	float: right;
+	margin: 20px;
+
+}

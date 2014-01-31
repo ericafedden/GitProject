@@ -1,0 +1,119 @@
+@import 'variables'; 
+
+// Home Page
+
+.banner{
+	background-image: url(../images/home.jpg);
+	width: auto;
+	height: 200px;	
+	margin-left: 10%;
+	background-repeat: no-repeat;	
+
+	p {
+	position: relative;
+	padding: 20px;
+	margin-left: 10px;
+	letter-spacing: -1px;
+	color: white;
+	font-size: 28px;
+	width: 30%;
+	text-align: center;
+	background-color: rgba(0,0,0, .5);
+ 	}
+	}
+// information 	
+.info{
+	float:left;
+	margin: 10px;
+	background-color: #FFF68F;
+	width: 66%;
+	margin: 10px;
+	height: 350px;
+	h1, p{
+		margin: 20px; 
+	}
+}
+.socialbuttons{
+	float: right;
+	@extend .info;
+	width: 30%;
+	color: white;
+	height: 350px;
+
+li{
+		list-style: none;
+		clear: both;
+		text-align: center;		
+		}
+}
+
+// About Us Page 
+
+video{
+	width: 85%;
+	height: 80%;
+	margin: 5%;
+}
+.leftimg{
+	float: left;
+	margin: 30px;
+
+}
+
+.quoteright{
+	font-style: italic;
+	margin: 30px;
+}
+// contactUs
+
+.section{
+margin: 10px;
+}
+.userinfo {
+	float: left;
+	background: $background-color;
+	width: 48%;
+	height: 400px;	
+	border: 2px dashed black;
+	margin-bottom: 20px;
+
+	form{
+	margin: 30px;
+	}
+}
+
+.contactlinks{
+	@extend .userinfo;
+	float: right;
+	text-align: center;
+	font-weight: bold;
+}
+.company{
+	clear:both;
+	background: $background-color;
+	margin-top: 20px;
+	border: 2px dashed black;
+	p{
+		margin: 20px;
+	}
+}	
+	a{
+		text-decoration: none;
+		font-weight: bold; 
+	}
+
+// form 
+textarea{
+	width: 60%;
+}
+
+.ok{
+	position: relative;
+	width: 50%;
+}
+form p{
+	font-weight: bold;
+}
+.contact, .home, .about{
+	color: orange;
+}

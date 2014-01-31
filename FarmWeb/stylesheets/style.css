@@ -1,0 +1,231 @@
+/* line 3, ../sass/_buttons.scss */
+.buttons {
+  list-style: none;
+}
+/* line 5, ../sass/_buttons.scss */
+.buttons a {
+  text-decoration: none;
+}
+/* line 9, ../sass/_buttons.scss */
+.buttons .foundicon-twitter, .buttons .foundicon-facebook, .buttons .foundicon-linkedin, .buttons .foundicon-google-plus {
+  color: white;
+}
+/* line 13, ../sass/_buttons.scss */
+.buttons .facebook, .buttons .twitter, .buttons .google, .buttons .linkedin {
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 30px;
+  margin-left: 45%;
+  font-size: 40px;
+  background: #23476a;
+  border: 1px solid black;
+}
+/* line 24, ../sass/_buttons.scss */
+.buttons .twitter {
+  background: #00abf0;
+}
+/* line 29, ../sass/_buttons.scss */
+.buttons .google {
+  background: #a92a24;
+}
+/* line 34, ../sass/_buttons.scss */
+.buttons .linkedin {
+  background: black;
+}
+/* line 38, ../sass/_buttons.scss */
+.buttons .facebook:hover, .buttons .twitter:hover, .buttons .google:hover, .buttons .linkedin:hover, .buttons .twitter:hover, .buttons .google:hover, .buttons .linkedin:hover {
+  border: 2px solid white;
+}
+
+/* line 43, ../sass/_buttons.scss */
+.readmore {
+  background-color: #ededed;
+  border: 2px white solid;
+  color: black;
+  float: right;
+  margin: 20px;
+}
+
+/* line 5, ../sass/_home.scss */
+.banner {
+  background-image: url(../images/home.jpg);
+  width: auto;
+  height: 200px;
+  margin-left: 10%;
+  background-repeat: no-repeat;
+}
+/* line 12, ../sass/_home.scss */
+.banner p {
+  position: relative;
+  padding: 20px;
+  margin-left: 10px;
+  letter-spacing: -1px;
+  color: white;
+  font-size: 28px;
+  width: 30%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 25, ../sass/_home.scss */
+.info, .socialbuttons {
+  float: left;
+  margin: 10px;
+  background-color: #FFF68F;
+  width: 66%;
+  margin: 10px;
+  height: 350px;
+}
+/* line 32, ../sass/_home.scss */
+.info h1, .socialbuttons h1, .info p, .socialbuttons p {
+  margin: 20px;
+}
+
+/* line 36, ../sass/_home.scss */
+.socialbuttons {
+  float: right;
+  width: 30%;
+  color: white;
+  height: 350px;
+}
+/* line 43, ../sass/_home.scss */
+.socialbuttons li {
+  list-style: none;
+  clear: both;
+  text-align: center;
+}
+
+/* line 52, ../sass/_home.scss */
+video {
+  width: 85%;
+  height: 80%;
+  margin: 5%;
+}
+
+/* line 57, ../sass/_home.scss */
+.leftimg {
+  float: left;
+  margin: 30px;
+}
+
+/* line 63, ../sass/_home.scss */
+.quoteright {
+  font-style: italic;
+  margin: 30px;
+}
+
+/* line 69, ../sass/_home.scss */
+.section {
+  margin: 10px;
+}
+
+/* line 72, ../sass/_home.scss */
+.userinfo, .contactlinks {
+  float: left;
+  background: #fff68f;
+  width: 48%;
+  height: 400px;
+  border: 2px dashed black;
+  margin-bottom: 20px;
+}
+/* line 80, ../sass/_home.scss */
+.userinfo form, .contactlinks form {
+  margin: 30px;
+}
+
+/* line 85, ../sass/_home.scss */
+.contactlinks {
+  float: right;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* line 91, ../sass/_home.scss */
+.company {
+  clear: both;
+  background: #fff68f;
+  margin-top: 20px;
+  border: 2px dashed black;
+}
+/* line 96, ../sass/_home.scss */
+.company p {
+  margin: 20px;
+}
+
+/* line 100, ../sass/_home.scss */
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 106, ../sass/_home.scss */
+textarea {
+  width: 60%;
+}
+
+/* line 110, ../sass/_home.scss */
+.ok {
+  position: relative;
+  width: 50%;
+}
+
+/* line 114, ../sass/_home.scss */
+form p {
+  font-weight: bold;
+}
+
+/* line 117, ../sass/_home.scss */
+.contact, .home, .about {
+  color: orange;
+}
+
+/* line 5, ../sass/style.scss */
+body {
+  font-family: sans-serif;
+}
+/* line 8, ../sass/style.scss */
+body header {
+  background-color: #fff68f;
+}
+/* line 10, ../sass/style.scss */
+body header li {
+  display: inline;
+  padding-top: 5px;
+  padding-left: 250px;
+}
+/* line 15, ../sass/style.scss */
+body header a {
+  text-transform: lowercase;
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+}
+/* line 21, ../sass/style.scss */
+body header a:hover {
+  color: white;
+}
+/* line 24, ../sass/style.scss */
+body header a:active {
+  color: red;
+}
+/* line 30, ../sass/style.scss */
+body .wrapper {
+  width: 100%;
+  height: auto;
+}
+/* line 35, ../sass/style.scss */
+body .content {
+  margin: auto;
+  width: 90%;
+  height: auto;
+}
+/* line 41, ../sass/style.scss */
+body footer {
+  background: linear-gradient(#fff68f, #ffffff, #fff68f);
+  clear: both;
+  margin-top: 10px;
+  padding: 20px;
+  text-align: right;
+  font-weight: bold;
+}

@@ -1,0 +1,48 @@
+@import 'variables';
+@import 'buttons';
+@import 'home';
+
+body{
+	font-family: sans-serif;
+
+header{	
+	background-color: $background-color;	
+   li {   	
+ 	display: inline; 
+ 	padding-top: 5px;
+ 	padding-left: 250px;
+	}
+  a{
+	text-transform: lowercase;
+	 padding: 20px;
+ 	font-size: 20px;
+	color: $link-color;
+	}
+	 a:hover{
+ 	color: $white-color;
+	}
+	a:active{
+		color: red;
+	}
+}
+
+// centers page 
+ .wrapper {
+       width: 100%;
+      height: auto;
+      
+ }
+  .content {
+      margin: auto;
+     width: 90%;
+     height: auto;
+       }
+
+ footer{
+	background: linear-gradient(#FFF68F, white, #FFF68F);
+ 	clear: both;
+ 	margin-top: 10px;
+ 	padding: 20px;
+ 	text-align: right;
+ 	font-weight: bold;
+ }}
