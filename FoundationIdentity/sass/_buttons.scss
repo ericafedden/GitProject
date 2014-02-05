@@ -28,6 +28,9 @@
 	font-size: $card-font;
 	background: #23476a;		
 	padding-right: 1%;
+	margin-bottom: 20px;
+
+
 	}
 
 	.twitter {	
@@ -44,6 +47,7 @@
 		@extend .facebook;
 		background: black;	
 		padding-right: 0px;	
+		margin-right: 30px;
 	}
 
 	.facebook:hover, .twitter:hover, .google:hover, .linkedin:hover {		
