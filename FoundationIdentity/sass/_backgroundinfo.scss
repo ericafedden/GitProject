@@ -8,10 +8,16 @@ $small-text: 25px;
 
 .hobbies{
 	font-size: $small-text;
-	color: $background-heading;
+	
 	background-color: $card-color;	
 	border-bottom: 5px solid $background-heading;
-	padding: 15px 30px;
+	padding: 15px 40px;
+	list-style: none;
+
+	h3{
+		color: $background-heading;
+
+	}
 
 	li{
 		list-style: none;
@@ -39,31 +45,41 @@ $small-text: 25px;
 	}
 
 	.dropdown{
-	width: 60%;
+	width: 90%;
 }
 	label{
 		font-size: 19px;		
 	}
-	p{
-		margin-left: 100px;
-	}
+	// p{
+	// 	margin-left: 100px;
+	// }
 	.checkboxes{
 		width: 90%;
 		padding-left: 5%;
-		margin-bottom: 20px;
-		margin-top: 10px;
+	
+
 	}
 
 	.ok{
-		width: 40%;
-		margin-left: 30%;
+		width: 50%;
+		margin-left: 20%;
 		display: block;
 		}
+table{
+	background-color: $card-color;
+	border: 0px;
+	width: 90%;
 
+	td{
+		background-color: $card-color;
+		
+
+}
+}
 textarea{
 	width: 90%;
 	height: 60px;
-	margin-left: 20px;
+	
 }
 
 }
@@ -71,7 +87,7 @@ textarea{
 .picture {
 	background: url(../img/leaf.jpg);
 	background-repeat: no-repeat;
-	height: 100px;
+	height: 200px;
 	border-bottom: 2px solid $background-heading;
 	padding: 15px 30px;
 }

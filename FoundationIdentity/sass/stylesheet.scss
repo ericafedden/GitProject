@@ -20,23 +20,21 @@ body{
 	}
 }
 .colleagues, .myinfo {
-	 //width: 50%;
-	//display: inline;
-	//padding: 0px;	
-	//margin-bottom: 0px;	
 	margin-top: 10px;
-	// float: right;
-	//list-style: none;
+
 }
 .myinfo{
 	@extend .colleagues;
-//	float: left;
 }
 
 footer{
+	h2{
+		color: $background-heading;
+
+	}
 	clear: both;
 	background: $text-color;
-	color: $background-heading;
+	
 	padding: 15px;
 	text-align: right;
 }
