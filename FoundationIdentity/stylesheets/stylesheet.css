@@ -20,33 +20,33 @@
 }
 /* line 20, ../sass/_buttons.scss */
 .buttons .facebook, .buttons .twitter, .buttons .google, .buttons .linkedin {
+  display: inline;
   float: left;
   color: white;
   text-align: center;
   border-radius: 5px;
-  margin: 0px 5px;
-  width: 70px;
+  margin: 0px 3px;
+  width: 60px;
   height: 40px;
   font-size: 20px;
   background: #23476a;
   padding-right: 1%;
   margin-bottom: 20px;
 }
-/* line 36, ../sass/_buttons.scss */
+/* line 37, ../sass/_buttons.scss */
 .buttons .twitter {
   background: #00abf0;
 }
-/* line 41, ../sass/_buttons.scss */
+/* line 42, ../sass/_buttons.scss */
 .buttons .google {
   background: #a92a24;
 }
-/* line 46, ../sass/_buttons.scss */
+/* line 47, ../sass/_buttons.scss */
 .buttons .linkedin {
   background: black;
   padding-right: 0px;
-  margin-right: 30px;
 }
-/* line 53, ../sass/_buttons.scss */
+/* line 54, ../sass/_buttons.scss */
 .buttons .facebook:hover, .buttons .twitter:hover, .buttons .google:hover, .buttons .linkedin:hover, .buttons .twitter:hover, .buttons .google:hover, .buttons .linkedin:hover {
   border: 1px solid white;
 }
@@ -61,46 +61,39 @@
 }
 /* line 10, ../sass/_infocard.scss */
 .card img {
-  float: left;
-  width: 200px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
   padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
   padding-right: 0px;
 }
 /* line 19, ../sass/_infocard.scss */
-.card .details {
-  float: right;
-}
-/* line 23, ../sass/_infocard.scss */
 .card h1 {
   color: #cccccc;
   font-size: 35px;
 }
-/* line 28, ../sass/_infocard.scss */
+/* line 24, ../sass/_infocard.scss */
 .card h3 {
   color: background-heading;
   padding-top: 0px;
 }
-/* line 33, ../sass/_infocard.scss */
+/* line 29, ../sass/_infocard.scss */
 .card .foundicon-mail, .card .foundicon-phone a {
   color: #d5a725;
 }
-/* line 37, ../sass/_infocard.scss */
+/* line 33, ../sass/_infocard.scss */
 .card .icon {
   color: #d5a725;
 }
-/* line 41, ../sass/_infocard.scss */
+/* line 37, ../sass/_infocard.scss */
 .card .mail a {
   font-size: 20px;
   padding-left: 10px;
 }
-/* line 46, ../sass/_infocard.scss */
+/* line 42, ../sass/_infocard.scss */
 .card a {
   text-decoration: none;
 }
-/* line 50, ../sass/_infocard.scss */
+/* line 46, ../sass/_infocard.scss */
 .card a:hover {
   color: #ffdead;
 }
