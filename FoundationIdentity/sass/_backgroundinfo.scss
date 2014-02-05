@@ -69,7 +69,7 @@ textarea{
 }
 // quote
 .picture {
-	background: url(../images/leaf.jpg);
+	background: url(../img/leaf.jpg);
 	background-repeat: no-repeat;
 	height: 100px;
 	border-bottom: 2px solid $background-heading;
@@ -77,11 +77,9 @@ textarea{
 }
 	blockquote {
 		letter-spacing: -1px;
-		font-size: 30px;
+		font-size: 25px;
 		position: absolute;
-		margin-left: 160px;
-		background-color: rgba(0,0,0, .5);
-		width: 20%;
+		background-color: rgba(0,0,0, .5);	
 		color: white;
 	}
 
