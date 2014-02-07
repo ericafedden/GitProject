@@ -96,44 +96,43 @@
   color: #ffdead;
 }
 
-/* line 8, ../sass/_backgroundinfo.scss */
+/* line 3, ../sass/_backgroundinfo.scss */
 .background {
   background-color: #336699;
 }
 
-/* line 12, ../sass/_backgroundinfo.scss */
+/* line 6, ../sass/_backgroundinfo.scss */
 .hobbies, .vid {
   font-size: 25px;
   background-color: #336699;
   border-bottom: 5px solid #cccccc;
-  padding: 15px 40px;
   list-style: none;
 }
-/* line 18, ../sass/_backgroundinfo.scss */
+/* line 12, ../sass/_backgroundinfo.scss */
 .hobbies ul, .vid ul {
   list-style: none;
 }
-/* line 22, ../sass/_backgroundinfo.scss */
+/* line 16, ../sass/_backgroundinfo.scss */
 .hobbies h3, .vid h3 {
   color: #cccccc;
 }
 
-/* line 33, ../sass/_backgroundinfo.scss */
+/* line 24, ../sass/_backgroundinfo.scss */
 .vid h2 {
   color: #cccccc;
 }
-/* line 36, ../sass/_backgroundinfo.scss */
+/* line 27, ../sass/_backgroundinfo.scss */
 .vid video {
   width: 100%;
   height: auto;
 }
 
-/* line 41, ../sass/_backgroundinfo.scss */
+/* line 32, ../sass/_backgroundinfo.scss */
 form h1 {
   color: #cccccc;
 }
 
-/* line 45, ../sass/_backgroundinfo.scss */
+/* line 36, ../sass/_backgroundinfo.scss */
 .picture {
   background: url(../img/leaf.jpg);
   background-repeat: no-repeat;
@@ -142,7 +141,7 @@ form h1 {
   padding: 15px 30px;
 }
 
-/* line 52, ../sass/_backgroundinfo.scss */
+/* line 43, ../sass/_backgroundinfo.scss */
 blockquote {
   letter-spacing: -1px;
   font-size: 25px;

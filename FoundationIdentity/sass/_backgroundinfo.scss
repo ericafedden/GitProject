@@ -1,19 +1,13 @@
  @import 'var';
 
-// $background-heading: #ccc;
-// $text-color: #036;
-// $card-color: #369;
-// $link-color: #d5a725;
-// $small-text: 25px;
 .background{
 	background-color: $card-color;
 }
-
  .hobbies {
  	font-size: $small-text;	
  	background-color: $card-color;	
  	border-bottom: 5px solid $background-heading;
- 	padding: 15px 40px;
+ 	// padding: 15px 40px;
  	list-style: none;
  	ul{
  		list-style: none;
@@ -21,11 +15,8 @@
 
 	h3{
  		color: $background-heading;
-
  	}
 	}
-
-
 //  video 
  	.vid{
  	@extend .hobbies;
