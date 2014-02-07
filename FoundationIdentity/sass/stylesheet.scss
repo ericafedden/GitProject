@@ -1,40 +1,30 @@
-@import 'buttons';
-@import 'infocard';
-@import 'backgroundinfo';
-@import 'var';
+ @import 'buttons';
+ @import 'infocard';
+ @import 'backgroundinfo';
+ @import 'var';
 
+ body{
+  	background-color: $background-heading;	
+ 	font-family: 'Actor' , sans-serif;
+ 	padding: 20px;
 
-body{
-	background-color: $background-heading;	
-	font-family: 'Actor' , sans-serif;
-	padding: 20px;
-		
-	header{
-		background-color: $text-color;
+ 	header{
+ 		background-color: $text-color;
 		padding: 15px 25px;
+		margin-bottom: 10px;
 
 		h1{
-			font-size: 40px;
-			color: $background-heading;
-		}
-	}
-}
-.colleagues, .myinfo {
-	margin-top: 10px;
-
-}
-.myinfo{
-	@extend .colleagues;
+ 			font-size: 40px;
+ 			color: $background-heading;
+ 		}
 }
 
 footer{
-	h2{
-		color: $background-heading;
+		h4{
+ 	color: $background-heading;
 
-	}
-	clear: both;
-	background: $text-color;
-	
-	padding: 15px;
-	text-align: right;
-}
+ 	 	}
+ 	
+	background: $text-color;	
+	padding: 15px;	 
+ 	}}

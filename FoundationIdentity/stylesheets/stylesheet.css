@@ -1,53 +1,53 @@
-/* line 2, ../sass/_buttons.scss */
+/* line 3, ../sass/_buttons.scss */
 .buttons {
   list-style: none;
 }
-/* line 5, ../sass/_buttons.scss */
+/* line 7, ../sass/_buttons.scss */
 .buttons li {
-  padding-top: 5px;
+  padding: 5px 15px;
   text-decoration: none;
 }
-/* line 9, ../sass/_buttons.scss */
+/* line 11, ../sass/_buttons.scss */
 .buttons .foundicon-twitter, .buttons .foundicon-facebook, .buttons .foundicon-linkedin, .buttons .foundicon-google-plus {
   color: white;
   font-size: 20px;
   border: none;
   background-color: 0, 0, 0, 0.5;
 }
-/* line 15, ../sass/_buttons.scss */
+/* line 17, ../sass/_buttons.scss */
 .buttons a {
   padding-top: 10px;
 }
-/* line 19, ../sass/_buttons.scss */
-.buttons .facebook, .buttons .twitter, .buttons .google, .buttons .linkedin {
+
+/* line 21, ../sass/_buttons.scss */
+.facebook, .twitter, .google, .linkedin {
   display: inline;
-  float: left;
-  color: white;
   text-align: center;
   border-radius: 5px;
-  margin: 0px 3px;
-  width: 60px;
-  height: 40px;
+  margin: 0px 5px;
   font-size: 20px;
   background: #23476a;
   padding-right: 1%;
-  margin-bottom: 20px;
 }
-/* line 36, ../sass/_buttons.scss */
-.buttons .twitter {
+
+/* line 31, ../sass/_buttons.scss */
+.twitter {
   background: #00abf0;
 }
-/* line 41, ../sass/_buttons.scss */
-.buttons .google {
+
+/* line 36, ../sass/_buttons.scss */
+.google {
   background: #a92a24;
 }
-/* line 46, ../sass/_buttons.scss */
-.buttons .linkedin {
+
+/* line 41, ../sass/_buttons.scss */
+.linkedin {
   background: black;
   padding-right: 0px;
 }
-/* line 53, ../sass/_buttons.scss */
-.buttons .facebook:hover, .buttons .twitter:hover, .buttons .google:hover, .buttons .linkedin:hover, .buttons .twitter:hover, .buttons .google:hover, .buttons .linkedin:hover {
+
+/* line 48, ../sass/_buttons.scss */
+.facebook:hover, .twitter:hover, .google:hover, .linkedin:hover, .twitter:hover, .google:hover, .linkedin:hover {
   border: 1px solid white;
 }
 
@@ -55,117 +55,85 @@
 .card {
   background-color: #336699;
   overflow: hidden;
-  margin-bottom: 35px;
-  border: 1px solid #ccc;
-  border-top: 0px;
 }
-/* line 11, ../sass/_infocard.scss */
+/* line 10, ../sass/_infocard.scss */
 .card img {
-  width: 230px;
-  height: 230px;
-  padding-top: 30px;
-  padding-right: 0px;
+  padding-top: 10px;
 }
-/* line 18, ../sass/_infocard.scss */
+/* line 13, ../sass/_infocard.scss */
 .card h1 {
   color: #cccccc;
   font-size: 35px;
 }
-/* line 23, ../sass/_infocard.scss */
+/* line 17, ../sass/_infocard.scss */
 .card h3 {
   color: background-heading;
   padding-top: 0px;
 }
-/* line 28, ../sass/_infocard.scss */
+/* line 21, ../sass/_infocard.scss */
+.card p {
+  margin-bottom: 5px;
+}
+/* line 24, ../sass/_infocard.scss */
 .card .foundicon-mail, .card .foundicon-phone a {
   color: #d5a725;
 }
-/* line 32, ../sass/_infocard.scss */
+/* line 28, ../sass/_infocard.scss */
 .card .icon {
   color: #d5a725;
 }
-/* line 36, ../sass/_infocard.scss */
+/* line 31, ../sass/_infocard.scss */
 .card .mail a {
   font-size: 20px;
   padding-left: 10px;
 }
-/* line 41, ../sass/_infocard.scss */
+/* line 36, ../sass/_infocard.scss */
 .card a {
   text-decoration: none;
 }
-/* line 45, ../sass/_infocard.scss */
+/* line 40, ../sass/_infocard.scss */
 .card a:hover {
   color: #ffdead;
 }
 
-/* line 9, ../sass/_backgroundinfo.scss */
-.hobbies, .vid, .education {
+/* line 8, ../sass/_backgroundinfo.scss */
+.background {
+  background-color: #336699;
+}
+
+/* line 12, ../sass/_backgroundinfo.scss */
+.hobbies, .vid {
   font-size: 25px;
   background-color: #336699;
   border-bottom: 5px solid #cccccc;
   padding: 15px 40px;
   list-style: none;
 }
-/* line 17, ../sass/_backgroundinfo.scss */
-.hobbies h3, .vid h3, .education h3 {
-  color: #cccccc;
-}
-/* line 22, ../sass/_backgroundinfo.scss */
-.hobbies li, .vid li, .education li {
+/* line 18, ../sass/_backgroundinfo.scss */
+.hobbies ul, .vid ul {
   list-style: none;
 }
+/* line 22, ../sass/_backgroundinfo.scss */
+.hobbies h3, .vid h3 {
+  color: #cccccc;
+}
 
-/* line 30, ../sass/_backgroundinfo.scss */
+/* line 33, ../sass/_backgroundinfo.scss */
 .vid h2 {
   color: #cccccc;
 }
-/* line 33, ../sass/_backgroundinfo.scss */
+/* line 36, ../sass/_backgroundinfo.scss */
 .vid video {
   width: 100%;
   height: auto;
 }
 
-/* line 42, ../sass/_backgroundinfo.scss */
-.education h1 {
-  font-size: 22px;
+/* line 41, ../sass/_backgroundinfo.scss */
+form h1 {
   color: #cccccc;
 }
-/* line 47, ../sass/_backgroundinfo.scss */
-.education .dropdown {
-  width: 90%;
-}
-/* line 50, ../sass/_backgroundinfo.scss */
-.education label {
-  font-size: 19px;
-}
-/* line 56, ../sass/_backgroundinfo.scss */
-.education .checkboxes {
-  width: 90%;
-  padding-left: 5%;
-}
-/* line 63, ../sass/_backgroundinfo.scss */
-.education .ok {
-  width: 50%;
-  margin-left: 20%;
-  display: block;
-}
-/* line 68, ../sass/_backgroundinfo.scss */
-.education table {
-  background-color: #336699;
-  border: 0px;
-  width: 90%;
-}
-/* line 73, ../sass/_backgroundinfo.scss */
-.education table td {
-  background-color: #336699;
-}
-/* line 79, ../sass/_backgroundinfo.scss */
-.education textarea {
-  width: 90%;
-  height: 60px;
-}
 
-/* line 87, ../sass/_backgroundinfo.scss */
+/* line 45, ../sass/_backgroundinfo.scss */
 .picture {
   background: url(../img/leaf.jpg);
   background-repeat: no-repeat;
@@ -174,7 +142,7 @@
   padding: 15px 30px;
 }
 
-/* line 94, ../sass/_backgroundinfo.scss */
+/* line 52, ../sass/_backgroundinfo.scss */
 blockquote {
   letter-spacing: -1px;
   font-size: 25px;
@@ -183,36 +151,29 @@ blockquote {
   color: white;
 }
 
-/* line 7, ../sass/stylesheet.scss */
+/* line 6, ../sass/stylesheet.scss */
 body {
   background-color: #cccccc;
   font-family: 'Actor' , sans-serif;
   padding: 20px;
 }
-/* line 12, ../sass/stylesheet.scss */
+/* line 11, ../sass/stylesheet.scss */
 body header {
   background-color: #003366;
   padding: 15px 25px;
+  margin-bottom: 10px;
 }
 /* line 16, ../sass/stylesheet.scss */
 body header h1 {
   font-size: 40px;
   color: #cccccc;
 }
-
 /* line 22, ../sass/stylesheet.scss */
-.colleagues, .myinfo, .myinfo {
-  margin-top: 10px;
-}
-
-/* line 30, ../sass/stylesheet.scss */
-footer {
-  clear: both;
+body footer {
   background: #003366;
   padding: 15px;
-  text-align: right;
 }
-/* line 31, ../sass/stylesheet.scss */
-footer h2 {
+/* line 23, ../sass/stylesheet.scss */
+body footer h4 {
   color: #cccccc;
 }

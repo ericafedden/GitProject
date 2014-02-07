@@ -1,101 +1,59 @@
-@import 'var';
+ @import 'var';
 
-$background-heading: #ccc;
-$text-color: #036;
-$card-color: #369;
-$link-color: #d5a725;
-$small-text: 25px;
+// $background-heading: #ccc;
+// $text-color: #036;
+// $card-color: #369;
+// $link-color: #d5a725;
+// $small-text: 25px;
+.background{
+	background-color: $card-color;
+}
 
-.hobbies{
-	font-size: $small-text;
-	
-	background-color: $card-color;	
-	border-bottom: 5px solid $background-heading;
-	padding: 15px 40px;
-	list-style: none;
+ .hobbies {
+ 	font-size: $small-text;	
+ 	background-color: $card-color;	
+ 	border-bottom: 5px solid $background-heading;
+ 	padding: 15px 40px;
+ 	list-style: none;
+ 	ul{
+ 		list-style: none;
+ 	}
 
 	h3{
-		color: $background-heading;
+ 		color: $background-heading;
 
+ 	}
 	}
 
-	li{
-		list-style: none;
-	}
-}
-// video 
-.vid{
-	@extend .hobbies;
 
-	h2{
-		color: $background-heading;		
-	}
-	video{
-		width: 100%;
-		height: auto;
-	}
-}
-// form 
-.education {
-	@extend .hobbies;
+//  video 
+ 	.vid{
+ 	@extend .hobbies;
 
-	h1{
-		font-size: 22px;
-		color: $background-heading;
-	}
+ 	h2{
+ 		color: $background-heading;		
+ 	}
+ 	  	video{
+ 	 	width: 100%;
+ 	 	height: auto;
+ 	 }
+ }
+ form h1{
+ 	color: $background-heading;
+ }
 
-	.dropdown{
-	width: 90%;
-}
-	label{
-		font-size: 19px;		
-	}
-	// p{
-	// 	margin-left: 100px;
-	// }
-	.checkboxes{
-		width: 90%;
-		padding-left: 5%;
-	
-
-	}
-
-	.ok{
-		width: 50%;
-		margin-left: 20%;
-		display: block;
-		}
-table{
-	background-color: $card-color;
-	border: 0px;
-	width: 90%;
-
-	td{
-		background-color: $card-color;
-		
-
-}
-}
-textarea{
-	width: 90%;
-	height: 60px;
-	
-}
-
-}
-// quote
-.picture {
-	background: url(../img/leaf.jpg);
-	background-repeat: no-repeat;
-	height: 200px;
-	border-bottom: 2px solid $background-heading;
-	padding: 15px 30px;
-}
-	blockquote {
-		letter-spacing: -1px;
-		font-size: 25px;
-		position: absolute;
-		background-color: rgba(0,0,0, .5);	
-		color: white;
-	}
+ .picture {
+ 	background: url(../img/leaf.jpg);
+ 	background-repeat: no-repeat;
+ 	height: 200px;
+ 	border-bottom: 2px solid $background-heading;
+ 	padding: 15px 30px;
+ }
+ 	blockquote {
+ 		letter-spacing: -1px;
+ 		font-size: 25px;
+ 		position: absolute;
+ 		background-color: rgba(0,0,0, .5);	
+ 		color: white;
+ 	}
 

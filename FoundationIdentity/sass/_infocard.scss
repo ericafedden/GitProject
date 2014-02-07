@@ -1,48 +1,43 @@
-@import 'var';
+ @import 'var';
 
-.card {	
-	background-color: $card-color;	
-	overflow: hidden;
-	// margin-top: 40px;
-	 margin-bottom: 35px;
-	border: 1px solid #ccc;
-	border-top: 0px;
+ .card {	
+ 	background-color: $card-color;	
+ 	overflow: hidden;
+// 	margin-bottom: 35px;
+// 	border: 1px solid #ccc;
+// 	border-top: 0px;
 
 	img {
-	// float: left;
-	width: 230px;
-	height: 230px;		
-	padding-top: 30px;
-	padding-right: 0px;
-	}
-	h1{
-		color: $background-heading;
+ 	padding-top: 10px;
+		}
+ 	h1{
+ 		color: $background-heading;
 		font-size: 35px;
-	}
+		 	}
+ 	h3{
+ 		color: background-heading;
+ 		padding-top: 0px;
+ 		}	
+ 	p {
+ 		margin-bottom: 5px;
+ 	}	
+ 	.foundicon-mail, .foundicon-phone a {
+ 		color: $link-color;
 
-	h3{
-		color: background-heading;
-		padding-top: 0px;
-		}	
-
-	.foundicon-mail, .foundicon-phone a {
-		color: $link-color;
-
-	}
-	.icon{
-		color: $link-color;
-	}
-
-	.mail a {
-		font-size: 20px;
-		padding-left: 10px;
-	}
+ 	}
+ 	.icon{
+ 		color: $link-color;
+ 	}
+ 	.mail a {
+ 		font-size: 20px;
+ 		padding-left: 10px;
+ 	}
 
 	a{
-		text-decoration: none;
-	}
+ 		text-decoration: none;
+ 	}
 
-	a:hover{
-		color: #ffdead;
-	}		
-}
+ 	a:hover{
+ 		color: #ffdead;
+ 	}		
+ }
